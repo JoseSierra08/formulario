@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Jose Sierra</title>
+    <style>
+        /* Estilos CSS */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #000000;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section-title {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #007bff;
+        }
+        .profile-img {
+            width: 150px;
+            border-radius: 50%;
+            margin: 0 auto;
+            display: block;
+            margin-bottom: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f4f4f4;
+            font-weight: bold;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Portafolio de Jose Sierra</h1>
+    </header>
+
+    <nav>
+        <a href="#inicio">Inicio</a> |
+        <a href="#experiencia">Experiencia Académica</a> |
+        <a href="#lenguajes">Lenguajes de Programación</a>
+    </nav>
+
+    <div class="container">
+        <section id="inicio" class="section">
+            <h2 class="section-title">Inicio</h2>
+            <img class="profile-img" src="data:image/jpeg;base64,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" alt="Foto de perfil">
+            <p>Mi nombre es Jose Sierra. ¡Bienvenido a mi página de portafolio!</p>
+        </section>
+
+        <section id="experiencia" class="section">
+            <h2 class="section-title">Experiencia Académica</h2>
+            <p>En mi trayectoria académica he cursado bachillerato y actualmente estoy en las universidades : Unefa / Tecnológico.</p>
+        </section>
+
+        <section id="lenguajes" class="section">
+            <h2 class="section-title">Lenguajes de Programación</h2>
+            <table>
+                <tr>
+                    <th>Lenguaje</th>
+                    <th>Descripción</th>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td>HTML es el lenguaje estándar para crear páginas web. Se utiliza para estructurar y presentar el contenido.</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>CSS es un lenguaje de estilo que se utiliza para diseñar la presentación de páginas web. Permite controlar el aspecto visual de los elementos HTML.</td>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                    <td>Python es un lenguaje de programación de alto nivel que se utiliza en una amplia variedad de aplicaciones, incluyendo desarrollo web, análisis de datos, inteligencia artificial y más.</td>
+                </tr>
+                <tr>
+                    <td>C++</td>
+                    <td>C++ es un lenguaje de programación de propósito general que se utiliza para el desarrollo de software, juegos, sistemas embebidos y más. Es una extensión del lenguaje de programación C.</td>
+                </tr>
+            </table>
+        </section>
+    </div>
+
+    <footer style="background-color: #007bff; color: #fff; text-align: center; padding: 10px 0;">
+        <p>Derechos de autor &copy; 2024 Jose Sierra</p>
+    </footer>
+</body>
+</html>
